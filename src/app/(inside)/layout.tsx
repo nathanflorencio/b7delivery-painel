@@ -8,7 +8,7 @@ import "@fontsource/roboto/700.css"
 
 import { Container } from "@mui/material"
 
-interface Props {
+type Props = {
   children: React.ReactNode
 }
 

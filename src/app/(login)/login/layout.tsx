@@ -11,7 +11,7 @@ import {
   Typography,
 } from "@mui/material"
 
-interface Props {
+type Props = {
   children: React.ReactNode
 }
 

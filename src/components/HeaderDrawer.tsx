@@ -10,7 +10,7 @@ import {
 } from '@mui/material'
 import Link from 'next/link'
 
-interface Props {
+type Props = {
   open: boolean;
   title: string;
   onClose: () => void;
